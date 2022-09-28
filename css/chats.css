@@ -1,0 +1,233 @@
+aside {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 10vw;
+}
+
+aside ul {
+    display: flex;
+    gap: 2vw;
+}
+
+aside time {
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+.cellular {
+    width: 5vw;
+    background-image: url(../images/cellular.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.wifi {
+    width: 5vw;
+    background-image: url(../images/wifi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.battary {
+    width: 7.5vw;
+    background-image: url(../images/battery.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 4.2vw;
+}
+
+header ul {
+    display: flex;
+    gap: 4vw;
+}
+
+header h1 {
+    font-size: 6vw;
+    font-weight: 00;
+}
+
+.search {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.add-friend {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/add-friend.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.settings {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/settings.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#friends img {
+    height: 11vw;
+    border-radius: 3.5vw;
+}
+
+.friends-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-header p {
+    color: gray
+}
+
+#friends {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin: 3vw;
+}
+
+#friends a {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+
+}
+
+#friends h2 {
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+
+#friends p {
+    font-size: 2.5vw;
+}
+
+.content {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60vw;
+    font-size: 2.5vw;
+}
+
+article time {
+    text-align: right;
+    font-size: 2.5vw;
+    color: gray;
+}
+
+.content {
+    color: gray;
+}
+
+.navigation {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 9vh;
+    background-color: #EFEFEF;
+    border-top: 1px solid #DDD;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0, 5vw;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation ul li{
+    width: 6vw;
+    height: 6vw;
+}
+
+.friend {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/user-blank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -10000px;
+}
+
+.chatting {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/chat-fill.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -10000px;
+}
+
+.view {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/view-blank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -10000px;
+}
+
+.shopping {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/shopping-blank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -10000px;
+}
+
+.more {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/more-blank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -10000px;
+}

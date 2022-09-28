@@ -1,0 +1,219 @@
+main {
+    background-color: #AEC0CE;
+    min-height: 100vh;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 10vw;
+}
+
+aside ul {
+    display: flex;
+    gap: 2vw;
+}
+
+aside time {
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+.cellular {
+    width: 5vw;
+    background-image: url(../images/cellular.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.wifi {
+    width: 5vw;
+    background-image: url(../images/wifi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.battary {
+    width: 7.5vw;
+    background-image: url(../images/battery.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 4.2vw;
+}
+
+header ul {
+    display: flex;
+    gap: 4vw;
+}
+header a {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/chevron-left-black.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 70%;
+    text-indent: -1000px;
+}
+
+header h1 {
+    font-size: 7vw;
+    font-weight: 500;
+}
+
+.search {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+.chatmenu {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/hamburger.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-indent: -1000px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#friends {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin: 3vw;
+}
+
+#friends li {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+#friends img {
+    height: 11vw;
+    border-radius: 10px;
+}
+
+#friends h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    color: gray;
+    margin-left: 2vw;
+}
+
+.content {
+    position: relative;
+    font-size: 3.5vw;
+    margin: 2vw;
+    margin-left: 5vw;
+    padding: 2vw;
+    border-radius: 4vw;
+    max-width: 60vw;
+    background-color: white;
+}
+
+#friends .content::after {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: "";
+    left: -1vw;
+    width: 2vw;
+    height: 2vw;
+    border-top: 2vw solid #FFF;
+    border-right: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 2vw solid transparent;
+}
+
+.message {
+    position: relative;
+}
+
+article time { 
+    display: block;
+    align-self: end;
+    width: 16vw;
+    font-size: 3.5vw;
+    color: gray;
+}
+
+#reply {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 9vh;
+    padding: 2.5vw;
+    background-color: #EFEFEF;
+    border-top: 1px solid #DDD;
+}
+
+#reply .plus {
+    background-image: url(../images/plus.png);
+}
+
+#reply button {
+    width: 6vw;
+    height: 6vw;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    text-indent: -1000px;
+    overflow: hidden;
+    border: none;
+}
+
+#reply form {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5vw;
+    padding: 1.5vw;
+    width: 91%;
+    border: 1px solid #C5C4C4;
+    border-radius: 2.5vw;
+    background-color: #F9F8F8;
+}
+
+#reply form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+#reply .emoji {
+    background-image: url(../images/emoji.png);
+}
+
+#reply .send {
+    background-image: url(../images/enter.png);
+}
+
+
+
